@@ -1,0 +1,59 @@
+.Mobile-SideBar-container{
+    background-color:transparent;
+    display:flex;
+    flex-direction:column;
+}
+
+.Desktop-SideBar-container{
+    display:none;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    .Mobile-SideBar-container{
+        display:none;
+    }
+    .Desktop-SideBar-container{
+        display:flex;
+        background-color:transparent;
+    }
+    
+    .sidebar{
+        height:100vh;
+        background-color:#123773;
+        width:95px;
+        position:fixed;
+    
+    }
+    
+    .container-fluid{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    
+    .icon-for-side-bar-expand-and-collapse{
+        display:flex;
+        align-items:right;
+        justify-content:right;
+        cursor: pointer;
+    }
+    
+    .icon-for-side-bar-expand-and-collapse p svg{
+        background-color:#19092c;
+        padding:5px;
+        color:white;
+        border-radius:5px;
+        margin-top:50px;
+    }
+    
+    .side-bar-expand{
+        width:230px;
+    }
+    
+    .container{
+        height:400px;
+    }
+    
+}

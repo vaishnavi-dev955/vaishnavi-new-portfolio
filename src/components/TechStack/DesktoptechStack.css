@@ -1,0 +1,46 @@
+.tech-stack-heading{
+    text-align:center;
+    color:#e06c0d;
+    font-size:35px;
+    font-family:'Bree-serif';
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.desktop-section-title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.TechnologyItem{
+    background-color:transparent;
+    height:160px;
+    width:200px;
+    border:0px;
+    margin:20px;
+
+}
+.tech-image{
+    height:130px;
+    width:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    
+}
+.desktop-tech-stack-para{
+    font-size:18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:400;
+    color:#540a0c;
+}
+.TechnologyItem-container{
+    background-color:transparent;
+    height:500px;
+    width:800px;
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type:none;
+    justify-content:center;
+    align-items:center;
+}

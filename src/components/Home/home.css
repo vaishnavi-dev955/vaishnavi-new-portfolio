@@ -1,0 +1,142 @@
+.home-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+        align-items:center;
+        margin:auto;
+        margin-top:30px;
+        padding-left:50px;
+        color:#275c52;
+
+}
+
+.button-for-action{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.hire-me-button:hover{
+    background-color:blueviolet;
+    color:aquamarine;
+    width:250px;
+    transition-duration:2s;
+}
+
+.get-resume-button:hover{
+    background-color: yellow;
+    color:black;
+    width:250px;
+    transition-duration:2s;
+
+}
+
+.get-resume-button a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.hire-me-button{
+    background-color:#426dc2;
+    height:40px;
+    width:180px;
+    text-align:center;
+    border:1px solid white;
+    color:white;
+    font-size:20px;
+    border-radius:30px;
+    margin-top:30px;
+    margin-left:30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.get-resume-button{
+    background-color:#d92a0f;
+    height:40px;
+    width:180px;
+    text-align:center;
+    border:1px solid white;
+    color:white;
+    font-size:20px;
+    border-radius:30px;
+    margin-top:10px;
+    margin-left:30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (min-width:768px){
+    .home-content{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin:auto;
+        margin-top:100px;
+        padding-left:200px;
+        color:#275c52;
+    }
+    
+    
+    .container-fluid{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    
+    }
+
+    .button-for-action{
+        display:flex;
+
+    }
+    
+    .hire-me-button{
+        background-color:#426dc2;
+        height:40px;
+        width:180px;
+        text-align:center;
+        border:1px solid white;
+        color:white;
+        font-size:20px;
+        border-radius:30px;
+        margin-top:30px;
+        margin-left:3px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .get-resume-button{
+        background-color:#d92a0f;
+        height:40px;
+        width:180px;
+        text-align:center;
+        border:1px solid white;
+        color:white;
+        font-size:20px;
+        border-radius:30px;
+        margin-top:10px;
+        margin-left:10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .hire-me-button:hover{
+        background-color:blueviolet;
+        color:aquamarine;
+        width:250px;
+        transition-duration:2s;
+    }
+    
+    .get-resume-button:hover{
+        background-color: yellow;
+        color:black;
+        width:250px;
+        transition-duration:2s;
+    
+    }
+    
+    .get-resume-button a{
+        text-decoration:none;
+        color:black;
+    }
+
+}
