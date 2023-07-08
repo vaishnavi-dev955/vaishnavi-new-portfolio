@@ -1,0 +1,26 @@
+
+.mobile-eductaion-heading{
+    color:brown;
+    font-size:35px;
+    font-family:'Bree-serif';
+    font-weight:bold;
+    text-decoration:underline;
+    padding-top:200px;
+}
+
+.mobile-eductaion-container{
+    display:flex;
+    background-image:linear-gradient(to bottom,#30fc03,#fcad03,#1c807c,white);
+    height:20vh;
+    width:70vw;
+    border-radius:20px;
+    list-style-type:none;
+    border:4px #1c2680 solid;
+    margin:2px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.eductaion-items{
+    padding-left:30vh;
+}

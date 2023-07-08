@@ -3,6 +3,7 @@ import React from 'react'
 import './TechStack.css'
 
 import DesktoptechStack from './DesktoptechStack'
+import MobiletechStack from './MobiletechStack'
 
 const TechStack = () =>{
     const Techdata = [
@@ -58,9 +59,14 @@ const TechStack = () =>{
         }
     ]
     return(
+        <React.Fragment>
+        <div className="Teschstack-Mobile-container">
+            <MobiletechStack MobileTechdata={Techdata}/>
+        </div>
         <div className="Teschstack-Desktop-container">
             <DesktoptechStack Techdata={Techdata}/>
         </div>
+        </React.Fragment>
     )
 }
 

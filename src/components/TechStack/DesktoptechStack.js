@@ -9,9 +9,11 @@ const DesktoptechStack = (props) =>{
             <h1 className="tech-stack-heading">Tech Stack</h1>
             <ul className='TechnologyItem-container'>
                 {Techdata.map(eachItem=>(
-                    <li key={eachItem.id} className="TechnologyItem">
+                    <li key={eachItem.id}>
+                        <button type="button" className="TechnologyItem-button">
                         <img src={eachItem.imgUrl} alt={eachItem.name} className="tech-image"/>
-                        <p className='desktop-tech-stack-para'>{eachItem.name}</p>
+                        <p >{eachItem.name}</p>
+                        </button>
                     </li>
                 ))}
             </ul>

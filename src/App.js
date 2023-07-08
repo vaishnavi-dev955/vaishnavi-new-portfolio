@@ -2,6 +2,7 @@ import React from 'react'
 
 import Sidebar from './components/Sidebar/sidebar'
 import TechStack from './components/TechStack/TechStack'
+import Education from './components/Education/Education'
 
 import './App.css'
 
@@ -13,6 +14,7 @@ const App = ()=>{
     <Sidebar/>
     <About/>
     <TechStack/>
+    <Education/>
     </div>
   )
 }

@@ -1,0 +1,21 @@
+.Teschstack-Desktop-container{
+    display:none;
+}
+
+.Teschstack-Mobile-container{
+    display:flex;
+    flex-direction:column;
+}
+
+@media screen and (min-width:768px){
+    .Teschstack-Desktop-container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .Teschstack-Mobile-container{
+        display:none;
+    }
+}
+
