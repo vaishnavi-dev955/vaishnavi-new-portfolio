@@ -1,4 +1,4 @@
-.profile-pic-style img{
+.profile-pic-style{
     max-height:60px;
     max-width:80px;
     border: solid 2px yellow;
@@ -14,10 +14,10 @@
     display:flex;
     justify-content:space-between;
     align-items:space-between;
-    position:fixed;
-    height:100px;
+    position:sticky;
+    height:70px;
     width:100vw;
-    background-color:transparent;
+    background-color:white;
 
 }
 .close-button-container{

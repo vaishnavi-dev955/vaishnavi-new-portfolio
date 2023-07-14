@@ -1,7 +1,7 @@
 .Mobile-SideBar-container{
-    background-color:transparent;
+    background-image:url("data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAEMgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EBDAAAAAAUaXNwZQAAAAAAAAJyAAABogAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEgYIDhAAABDptZGF0EgAKChhmJx0LBAgIGhAyoQgRQAEEEEFAtUC0x+sC0Ip7ZK3qxBSMR3/tH4mCtAJ0PUQllqXsfAGXSjdBU9uTRLFPKRaQS306jQKX3dL9qhf+iIfzYBSCrhwdgL783dtMUF34A/w7K283bxLNJMkW2Ueg3QWxElCgFjkaJ2NTd+aiDTdjyZLadOu61VshmL14/xfLlDvjMeYgYY4vTZXBVLz96l+2GnFxxX9sEELjDTH0Q5b0zo/HTxknaDpk2a7MJVwa1lYNTQaMdXAFb/moQGQIY8NGHWkifRQIwPQOLe3I5Dtoh9Of1wOk0Z5fFHjhG0e0n44AF9Yo6qzdIdiBNhnBu6BxWNRr+DbslRYziglmVzgLsqpcPMW/qMOq/E+SNwmcwANXuoYQQYDBFN9J3/mYHnHO84JYS1jmnYj/d/NslSQClmxHBn0zWRivEO6CzD6sQXxHFV/rLsHI+j2KAxC7B6mZ5+76oezOcVZSPt5bNWvZrzmGgyQPdZtmvw2rzRlzPPe21gWejnGGPA0vwVUGHgD3yPvZGR7YZvSc0Dl/diU84ZEREaLtgMukm/jf+TmSb4/qlurI6Fi0MCw8fWBfCRzorQ2OKczvArbyxQf+MZnSc6vLcJf0PX78mbF/jnSVMKrnfVI9JhJtBMjSGG2S5NVFhKGgOqNKYdQLHipebxnQLPbRcayVfRK4IBs8msdTQPStd186HiwuOOFQj/GPNuf2sC8zljAyKQms10wd2ysoTHfuFSW3+UyiLPMdBmys2b6k7E+ArxZqC6PPacEFPwx6VRp/9mtr/JVhzljInIV7u+uhpvKy6+43JCXjVmeakywbjlCIdYii5zJGeLdqIYGqeCt4Z93NNEJHTc13hqvhpEN+0aHp6exHK/c0cnn8/H6py5TtmEQVSnTdllpFF2C/uL5OWXlAYm2HZZhYHhOxzoyXiOqqLJ8ymmo3yl+5/n8HQry9TWDFm9p6m3UuwsvPEhqvBsev0b2hOW9z/n8tNtfk++8iZPshnQw0+lQQVu+DVGiBpcUxUAO938VKeOivEP6U1AzltuNUlLapJTMPz23/jeJxdFUagS6ydFlc2YIcshW+ulRUpsCCISiMzY1DY/91f6XCGZ02KmS+3tTgCIcXJfP48hrr6nwp0pZsJWLHV0n6f/QdSWUiMY4BQVGwzOEm3nJmKBwMmJZZXIpqr9ktWQJ2HzRpCQba6MVorFGwjRXiZvQDgkiYbptriEbLjPMNXFVDoy/NpGER5nLoG+jyFsEftSY8SGe/9XzjZB9KwlzhizLub08rKNE09hj95KP/iCIOKqthWpyuWJkLnCtB6w2zlL2877RLBSH5ZMTsjgFG+jL9z2VY7Kc/NDHFDLFJK1d5csGsC2LUX4EBsSkClX5HIABQv9ibMG4mmCxOPdJXLmvRYbL6W7N7");
     display:flex;
-    flex-direction:column;
+    
 }
 
 .Desktop-SideBar-container{
@@ -22,9 +22,10 @@
     
     .sidebar{
         height:100vh;
-        background-color:#123773;
-        width:95px;
+        background-color:transparent;
+        width:10%;
         position:fixed;
+        border-right:2px solid white;
     
     }
     
@@ -49,7 +50,7 @@
     }
     
     .side-bar-expand{
-        width:230px;
+        width:20%;
     }
     
     .container{

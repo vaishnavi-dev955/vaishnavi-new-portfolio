@@ -2,7 +2,10 @@ import React from 'react'
 
 import './DesktopSidebarlist.css'
 
-import { FcHome,FcContacts,FcNightPortrait,FcTodoList } from "react-icons/fc";
+import {AiOutlineHome} from 'react-icons/ai'
+import {BsFillPersonFill} from 'react-icons/bs'
+import {GrProjects} from 'react-icons/gr'
+import {RiContactsBook2Line} from 'react-icons/ri'
 
 import {MdBiotech,MdCastForEducation} from "react-icons/md";
 
@@ -17,22 +20,22 @@ const DesktopSideBarList = (props) =>{
                     alt="profile-pic"/>
                 </div>
                 <ul className="Nav-items">
-                    <li className="nav-item"> <FcHome size={25}/> Home</li>
-                    <li className="nav-item"> <FcNightPortrait size={25}/> About</li>
-                    <li className="nav-item"> <MdBiotech size={25} color="orange"/> Tech Stack</li>
+                    <li className="nav-item"> <AiOutlineHome size={25} color="white"/> Home</li>
+                    <li className="nav-item"> <BsFillPersonFill size={25} color="white"/> About</li>
+                    <li className="nav-item"> <MdBiotech size={25} color="white"/> Tech Stack</li>
                     <li className="nav-item"> <MdCastForEducation size={25}/> Education</li>
-                    <li className="nav-item"> <FcTodoList size={25}/> Projects</li>
-                    <li className="nav-item"> <FcContacts size={25}/> Contact</li>
+                    <li className="nav-item"> <GrProjects size={25} color="white"/> Projects</li>
+                    <li className="nav-item"> <RiContactsBook2Line size={25} color="white"/> Contact</li>
                 </ul>
                 </div>
             ):(<div className="Nav-bar-items-only-icons">
                 <ul className="Nav-items">
-                    <li className="nav-item"> <FcHome size={25}/></li>
-                    <li className="nav-item"> <FcNightPortrait size={25}/></li>
-                    <li className="nav-item"> <MdBiotech size={25} color="orange"/></li>
-                    <li className="nav-item"> <MdCastForEducation size={25} /></li>
-                    <li className="nav-item"> <FcTodoList size={25} /></li>
-                    <li className="nav-item"> <FcContacts size={25}/></li>
+                    <li className="nav-item"> <AiOutlineHome size={25}  color="white"/></li>
+                    <li className="nav-item"> <BsFillPersonFill size={25} color="white"/></li>
+                    <li className="nav-item"> <MdBiotech size={25} color="white"/></li>
+                    <li className="nav-item"> <MdCastForEducation size={25}/></li>
+                    <li className="nav-item"> <GrProjects size={25} color="white"/></li>
+                    <li className="nav-item"> <RiContactsBook2Line size={25} color="white"/></li>
                 </ul>
 
             </div>)}

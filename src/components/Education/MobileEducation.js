@@ -12,11 +12,11 @@ const MobileEducation = (props) =>{
                 <ul>
                     {EducationData.map(eachItem=>(
                         <li key={eachItem.id} className="mobile-eductaion-container">
-                            <RiGraduationCapFill size={70}/>
-                            <div className="eductaion-items">
-                                <h1>{eachItem.degree}</h1>
-                                <p>{eachItem.name}</p>
-                                <p>{eachItem.year}</p>
+                            <RiGraduationCapFill size={45} className='graduation-logo'/>
+                            <div className='eductaion-items'>
+                                <h1 className="mobile-ed-heading">{eachItem.degree}</h1>
+                                <p className="mobile-ed-para1">{eachItem.name}</p>
+                                <p className="mobile-ed-para1">{eachItem.year}</p>
                             </div>
 
                         </li>

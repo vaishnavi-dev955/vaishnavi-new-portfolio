@@ -3,7 +3,6 @@ import React,{useState} from 'react'
 import './sidebar.css'
 
 import {BsChevronLeft, BsChevronRight} from "react-icons/bs"; 
-import Home from '../Home/home'
 import DesktopSideBarList from './Desktopsidebarlist'
 import MobileSidebarlist from './MobileSidebarlist'
 
@@ -18,7 +17,6 @@ const Sidebar = () =>{
         <React.Fragment>
         <div className="Mobile-SideBar-container">
             <MobileSidebarlist/>
-            <Home/>
         </div>
         <div className="container-fluid Desktop-SideBar-container">
             <div className={expandSideBar ? "side-bar-expand sidebar" : "sidebar"}>
@@ -30,7 +28,6 @@ const Sidebar = () =>{
             <DesktopSideBarList  expandSideBar={expandSideBar}/>
             </div>
             <div className="container">
-                <Home/>
             </div>
         </div>
         </React.Fragment>

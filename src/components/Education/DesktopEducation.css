@@ -1,0 +1,19 @@
+.vertical-timeline-element-desktop{
+    height:20vh;
+    width:20vw;
+}
+
+.desktop-sub-container{
+    height:80vh;
+    width:80vw;
+    background-color:transparent;
+    margin-left:20vh;
+}
+
+.Desktop-eductaion-heading{
+    padding-top:250px;
+    font-size:35px;
+    font-weight:bold;
+    text-decoration: underline;
+    
+}

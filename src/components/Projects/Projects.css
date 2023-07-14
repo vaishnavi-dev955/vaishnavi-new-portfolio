@@ -1,11 +1,11 @@
-.Mobile-Education-main-container{
+.Mobile-Projects-main-container{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
 
-.Desktop-Education-main-container{
+.Desktop-Projects-main-container{
     display:none;
 }
 
@@ -13,13 +13,13 @@
 
 
 @media screen and (min-width:768px){
-    .Mobile-Education-main-container{
-        display:none;
-    }
-    .Desktop-Education-main-container{
+    .Desktop-Projects-main-container{
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:center;
+    }
+    .Mobile-Projects-main-container{
+        display:none;
     }
 }

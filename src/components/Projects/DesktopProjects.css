@@ -1,0 +1,114 @@
+.Desktop-projects-heading{
+    color:#a30a4a;
+    font-size:35px;
+    font-family:'Bree-serif';
+    font-weight:bold;
+    text-decoration:underline;
+    padding-top:150px;
+    padding-left:30px;
+}
+
+.Desktop-projects-main--container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:transparent;
+    height:80vh;
+    width:80vw;
+    margin-left:10vw;
+
+}
+
+.Desktop-projects-container{
+    display:flex;
+    flex-direction:column;
+    background-color:#dba2d1;
+    height:35vh;
+    width:30vw;
+    border-radius:20px;
+    list-style-type:none;
+    border:4px #1c2680 solid;
+    margin:8px;
+}
+
+.Desktop-sub-projects-container{
+    display:flex;
+    background-color:transparent;
+    flex-wrap:wrap;
+    list-style-type:none;
+}
+
+.Desktop-tech-button{
+    height:30px;
+    width:100px;
+    background-color: #360628;
+    color:white;
+    font-size:16px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    border-radius:5px;
+    border:3px white solid;
+}
+
+.Desktop-tech-button:hover{
+    height:30px;
+    width:100px;
+    background-color:White;
+    color:black;
+    font-size:16px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    border-radius:5px;
+    border:3px black solid;
+    transition-duration:2s;
+
+}
+
+
+.mobile-pro-heading{
+    color:#1c2680;
+    font-size:20px;
+
+}
+
+.Desktop-live-demo-button{
+    background-color:green;
+    height:30px;
+    width:130px;
+    font-size:15px;
+    color:wheat;
+    border:0px solid;
+    border-radius:5px;
+    margin-left:30px;
+}
+.nav-desktop-link{
+    font-size:15px;
+    color:wheat;
+    text-decoration:none;
+}
+
+.pro-items{
+    background-color:transparent;
+    height:13vh;
+    margin-left:10vw;
+    width:65vw;
+}
+
+.desktop-pro-para1{
+    color:#1b402c;
+    font-size:20px;
+    padding-left:20px;
+    font-weight:bold;
+}
+
+.desk-pro-con-heading{
+    font-size:25px;
+    font-weight:bold;
+    padding-left:20px;
+    font-weight:bold;
+}

@@ -2,7 +2,8 @@ import React from 'react'
 
 import './Education.css'
 
-import DesktopEducation from './DesktopEducation'
+import MobileEducation from './MobileEducation'
+import DesktopEducation  from './DesktopEducation'
 
 
 const Education = () =>{
@@ -23,7 +24,7 @@ const Education = () =>{
             id:3,
             name:"Chaitanya Residential High School",
             degree:"SSC",
-            year:"2014"
+            year:"2013-2014"
         }
 
 
@@ -31,6 +32,9 @@ const Education = () =>{
     ]
     return(
         <React.Fragment>
+            <div className="Mobile-Education-main-container">
+                <MobileEducation EducationData={EducationData}/>
+            </div>
             <div className="Desktop-Education-main-container">
                 <DesktopEducation EducationData={EducationData}/>
 

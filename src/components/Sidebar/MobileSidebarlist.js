@@ -23,10 +23,8 @@ const MobileSidebarlist = () =>{
         <React.Fragment>
         <div className="mobile-main-container">
         <div className="mobile-sub-container">
-                <div className="profile-pic-style">
                     <img src="https://i.pinimg.com/736x/b1/46/25/b146250e47edb4875c26def596b1328b.jpg"
-                    alt="mobile profile pic"/>
-                </div>
+                    alt="mobile profile pic" className='profile-pic-style'/>
                 <button type="button" className="menu-button" onClick={onClickMenuButton}><RiMenuUnfoldFill size={30}/></button>
             {clickMenu ? <div className="nav-items-container">
                 <div className="close-button-container">
