@@ -1,0 +1,28 @@
+.Mobile-MainEducation-main-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.Desktop-MainEducation-main-container{
+    display:none;
+}
+
+
+
+
+@media screen and (min-width:768px){
+    .Mobile-MainEducation-main-container{
+        display:none;
+    }
+    .Desktop-MainEducation-main-container{
+        display:flex;
+    }
+    .Desktop-MainEductaion-container{
+        background-color:transparent;
+        height:90%;
+        width:180%;
+        margin-right:20%;
+    }
+}

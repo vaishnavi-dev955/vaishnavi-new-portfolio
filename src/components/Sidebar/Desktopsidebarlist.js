@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 import './DesktopSidebarlist.css'
 
 import {AiOutlineHome} from 'react-icons/ai'
@@ -10,6 +10,10 @@ import {RiContactsBook2Line} from 'react-icons/ri'
 import {MdBiotech,MdCastForEducation} from "react-icons/md";
 
 const DesktopSideBarList = (props) =>{
+    const navigate = useNavigate()
+    const onClickAbout = () => {
+        navigate("/about")
+    }
     const {expandSideBar} = props
     return(
         <React.Fragment>
@@ -20,10 +24,10 @@ const DesktopSideBarList = (props) =>{
                     alt="profile-pic"/>
                 </div>
                 <ul className="Nav-items">
-                    <li className="nav-item"> <AiOutlineHome size={25} color="white"/> Home</li>
-                    <li className="nav-item"> <BsFillPersonFill size={25} color="white"/> About</li>
+                    <li className="nav-item" onClick={() => navigate("/")}> <AiOutlineHome size={25} color="white"/> Home</li>
+                    <li className="nav-item" onClick={onClickAbout}> <BsFillPersonFill size={25} color="white"/> About</li>
                     <li className="nav-item"> <MdBiotech size={25} color="white"/> Tech Stack</li>
-                    <li className="nav-item"> <MdCastForEducation size={25}/> Education</li>
+                    <li className="nav-item" onClick={()=> navigate("/education")}> <MdCastForEducation size={25}/> Education</li>
                     <li className="nav-item"> <GrProjects size={25} color="white"/> Projects</li>
                     <li className="nav-item"> <RiContactsBook2Line size={25} color="white"/> Contact</li>
                 </ul>

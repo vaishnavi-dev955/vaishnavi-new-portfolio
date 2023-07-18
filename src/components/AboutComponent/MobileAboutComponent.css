@@ -1,4 +1,4 @@
-.mobile-about-image{
+.mobile-aboutMain-image{
     max-height:50%;
     max-width:50%;
     border-top-left-radius:40%;
@@ -6,19 +6,20 @@
     border-bottom-left-radius:40%;
     border-bottom-right-radius:40%;
     border:5px solid yellow;
+    margin-top:10%;
 }
 
-.mobile-about-main-container{
+.mobile-aboutMain-container{
     text-align: center;
 }
-.mobile-about-para{
+.mobile-aboutMain-para{
     color:#ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:12px;
     padding-left:10%;
     padding-right:10%;
 }
-.about-me-mobile-heading{
+.about-Maain-mobile-heading{
     color:yellow;
     font-size:27px;
     font-family:'Bree-serif';
@@ -27,3 +28,4 @@
     font-weight:bold;
     text-decoration: underline;
 }
+

@@ -2,6 +2,10 @@ import React,{useState}from 'react'
 
 import './MobileSidebarlist.css'
 
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 import {RiMenuUnfoldFill} from 'react-icons/ri'
 
@@ -12,6 +16,7 @@ import {MdBiotech,MdCastForEducation} from "react-icons/md";
 import {AiOutlineCloseSquare} from 'react-icons/ai'
 
 const MobileSidebarlist = () =>{
+    const navigate = useNavigate()
     const [clickMenu,settingMenu] = useState(false)
     const onClickMenuButton = () =>{
         settingMenu(!clickMenu)
@@ -24,7 +29,7 @@ const MobileSidebarlist = () =>{
         <div className="mobile-main-container">
         <div className="mobile-sub-container">
                     <img src="https://i.pinimg.com/736x/b1/46/25/b146250e47edb4875c26def596b1328b.jpg"
-                    alt="mobile profile pic" className='profile-pic-style'/>
+                    alt="mobile profile pic" className='profile-pic-style' onClick={()=>navigate("/")}/>
                 <button type="button" className="menu-button" onClick={onClickMenuButton}><RiMenuUnfoldFill size={30}/></button>
             {clickMenu ? <div className="nav-items-container">
                 <div className="close-button-container">
@@ -33,11 +38,11 @@ const MobileSidebarlist = () =>{
                 </button>
                 </div>
                 <ul className="mobile-nav-items">
-                <li className="nav-item-mobile">
+                <li className="nav-item-mobile" onClick={()=>navigate("/")}>
                     <FcHome size={25}/>
                     <p className="para">Home</p>
                 </li>
-                <li className="nav-item-mobile">
+                <li className="nav-item-mobile" onClick={()=>navigate("/about")}>
                     <FcNightPortrait size={25}/> 
                     <p className="para">About</p>
                 </li>
@@ -45,7 +50,7 @@ const MobileSidebarlist = () =>{
                     <MdBiotech size={25} color="orange"/>
                     <p className="para">Tech Stack</p>
                 </li>
-                <li className="nav-item-mobile">
+                <li className="nav-item-mobile" onClick={()=>navigate("/education")}>
                     <MdCastForEducation size={25}/>
                     <p className="para">Education</p>
                 </li>

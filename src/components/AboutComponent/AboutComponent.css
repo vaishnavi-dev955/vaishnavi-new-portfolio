@@ -1,0 +1,28 @@
+.Desktop-AboutMain-main-section{
+    display:none;
+}
+.mobile-AboutMain-main-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+@media screen and (min-width:768px){
+    .mobile-AboutMain-main-section{
+        display:none;
+    }
+
+    .Desktop-AboutMain-main-section{
+        display:flex;
+        flex-direction:row;
+    }
+    .desktop-main-about-about-component{
+        height:80%;
+        width:90%;
+        background-color:transparent;
+        margin-right:22%;
+    }
+}
