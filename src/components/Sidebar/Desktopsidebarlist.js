@@ -26,7 +26,7 @@ const DesktopSideBarList = (props) =>{
                 <ul className="Nav-items">
                     <li className="nav-item" onClick={() => navigate("/")}> <AiOutlineHome size={25} color="white"/> Home</li>
                     <li className="nav-item" onClick={onClickAbout}> <BsFillPersonFill size={25} color="white"/> About</li>
-                    <li className="nav-item"> <MdBiotech size={25} color="white"/> Tech Stack</li>
+                    <li className="nav-item" onClick={()=>navigate("/techstack")}> <MdBiotech size={25} color="white"/> Tech Stack</li>
                     <li className="nav-item" onClick={()=> navigate("/education")}> <MdCastForEducation size={25}/> Education</li>
                     <li className="nav-item"> <GrProjects size={25} color="white"/> Projects</li>
                     <li className="nav-item"> <RiContactsBook2Line size={25} color="white"/> Contact</li>

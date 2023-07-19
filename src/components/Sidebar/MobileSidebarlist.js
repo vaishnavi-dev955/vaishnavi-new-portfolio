@@ -46,7 +46,7 @@ const MobileSidebarlist = () =>{
                     <FcNightPortrait size={25}/> 
                     <p className="para">About</p>
                 </li>
-                <li className="nav-item-mobile">
+                <li className="nav-item-mobile" onClick={()=>navigate("/techstack")}>
                     <MdBiotech size={25} color="orange"/>
                     <p className="para">Tech Stack</p>
                 </li>

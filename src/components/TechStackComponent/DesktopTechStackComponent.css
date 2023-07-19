@@ -1,0 +1,83 @@
+.desktop-tech-stack-main-heading{
+    text-align:center;
+    color:blanchedalmond;
+    font-size:35px;
+    font-family:'Bree-serif';
+    font-weight:bold;
+    text-decoration:underline;
+    padding-right:14%;
+    padding-right:14%;
+    padding-top:10%;
+}
+
+.desktop-section-tech-stack-title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:80%;
+    width:80%;
+    background-color:transparent;
+    margin-left:10%;
+}
+
+.desktop-tech-stack-image{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    
+}
+.desktop-TechnologyItem-container{
+    background-color:transparent;
+    height:70%;
+    width:130%;
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type:none;
+    justify-content:center;
+    border:1px solid white;
+    align-items:center;
+}
+
+.desktop-TechnologyItem-button{
+    background-color:white;
+    height:15%;
+    width:90%;
+    margin-top:10%;
+    margin-left:5%;
+    margin-right:13%;
+    margin-bottom:7%;
+    border:0px solid;
+    font-size:18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:400;
+    color:#540a0c;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.desktop-TechnologyItem-button:hover{
+    background-color:black;
+    height:15%;
+    width:90%;
+    margin-top:10%;
+    margin-left:5%;
+    margin-right:13%;
+    margin-bottom:7%;
+    border:0px solid;
+    font-size:18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    border:4px yellow solid;
+    transition-duration:2s;
+}
+

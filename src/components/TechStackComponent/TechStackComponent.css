@@ -1,0 +1,24 @@
+.TeschstackComponent-Desktop-container{
+    display:none;
+}
+
+.TeschstackComponent-Mobile-container{
+    display:flex;
+    flex-direction:column;
+}
+
+@media screen and (min-width:768px){
+    .TeschstackComponent-Desktop-container{
+        display:flex;
+    }
+    .TeschstackComponent-Mobile-container{
+        display:none;
+    }
+    .TeschstackComponent-Desktop-sub-container{
+        background-color:transparent;
+        height:80%;
+        width:150%;
+        margin-right:17%;
+        margin-left:10%;
+    }
+}

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './components/Home/home'
 import AboutComponent from './components/AboutComponent/AboutComponent'
 import EducationComponent  from './components/EducationComponent/EductaionComponent'
+import TeschstackComponent from './components/TechStackComponent/TechStackComponent'
 
 import './App.css'
 
@@ -32,6 +33,13 @@ const MainEducation = () =>{
   )
 }
 
+const MainTechStackComponent= () =>{
+  return(
+    <div className="main-container">
+      <TeschstackComponent/>
+    </div>
+  )
+}
 
 const App = ()=>{
   return(
@@ -40,6 +48,7 @@ const App = ()=>{
         <Route exact path="/" element={<MainHome/>} />
         <Route exact path="/about" element={<MainAbout/>}/>
         <Route exact path='/education' element={<MainEducation/>}/>
+        <Route exact path="/techstack" element={<MainTechStackComponent/>}/>
         </Routes>
       </BrowserRouter>
   )
