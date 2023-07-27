@@ -11,7 +11,7 @@ const AboutComponent = () =>{
         <React.Fragment>
         <div className="mobile-AboutMain-main-section">
             <Sidebar/>
-            <div>
+            <div className="mobile-AboutMain-first-Container">
             <MobileAboutComponent/>
             </div>
         </div>

@@ -54,11 +54,11 @@ const MobileSidebarlist = () =>{
                     <MdCastForEducation size={25}/>
                     <p className="para">Education</p>
                 </li>
-                <li className="nav-item-mobile">
+                <li className="nav-item-mobile" onClick={()=>navigate("/projects")}>
                     <FcTodoList size={25}/>
                     <p className="para">Projects</p>
                 </li>
-                <li className="nav-item-mobile1">
+                <li className="nav-item-mobile1" onClick={()=>navigate("/contact")}>
                     <FcContacts size={25}/>
                     <p className="para">Contact</p>
                 </li>

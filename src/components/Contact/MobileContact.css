@@ -1,0 +1,39 @@
+.Mobile-contact-first-container{
+    background-color:transparent;
+    height:80%;
+    width:80%;
+
+}
+.Mobile-contact-Full-Name-container{
+    background-color:white;
+    height:25%;
+    width:90%;
+    border-radius:10px;
+    display:flex;
+    margin:5%;
+}
+.input-mobile-Contact-full-name-container{
+    background-color:transparent;
+    color:grey;
+    height:20%;
+    width:80%;
+    border:0px solid;
+    padding-left:2%;
+}
+.input-mobile-Contact-email-container{
+    background-color:transparent;
+    color:grey;
+    height:20%;
+    width:80%;
+    border:0px solid;
+    padding-left:2%;
+}
+.Mobile-contact-Email-container{
+    background-color:white;
+    height:25%;
+    width:90%;
+    border-radius:10px;
+    display:flex;
+    margin:5%;
+
+}

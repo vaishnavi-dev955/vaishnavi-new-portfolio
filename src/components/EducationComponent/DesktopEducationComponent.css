@@ -1,11 +1,11 @@
 .Desktop-eductaion-main-heading{
-    padding-top:5%;
+    padding-top:13%;
     font-size:35px;
     font-weight:bold;
     text-decoration: underline;
     color:yellow;
     padding-right:14%;
-    padding-right:14%;
+    padding-right:17%;
     
 }
 
@@ -15,16 +15,16 @@
 
 .Desktop-Education-Item-main-container{
     background-color:#ffffff;
-    height:65%;
-    width:80%;
+    height:32%;
+    width:70%;
     display:flex;
     list-style-type:none;
     justify-content:space-around;
     align-items:space-around;
     margin-left:10%;
     margin-right:10%;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 
 .desk-ed-main-container{
@@ -48,9 +48,10 @@
 
 .Desktop-ed-list-main-container{
     background-color:transparent;
-    height:100%;
     width:120%;
-    border:1px solid #ffffff;
+    border:0px solid #ffffff;
+    height:150%;
+    
 
 }
 

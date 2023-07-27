@@ -5,9 +5,9 @@ import './DesktopProjects.css'
 const DesktopProjects = (props) =>{
     const {ProjectsData} = props 
     return(
-        <React.Fragment>
+        <div className="Desktop-Home-projects-container">
             <h1 className="Desktop-projects-heading">Projects</h1>
-            <ul className="Desktop-projects-main--container">
+            <ul className="Desktop-projects-main-container">
                 {ProjectsData.map(eachItem=>(
                     <li  key={eachItem.id} className="Desktop-projects-container">
                         <h1 className="desk-pro-con-heading">{eachItem.name}</h1>
@@ -23,7 +23,7 @@ const DesktopProjects = (props) =>{
                     </li>
                 ))}
             </ul>
-        </React.Fragment>
+            </div>
     )
     
 }

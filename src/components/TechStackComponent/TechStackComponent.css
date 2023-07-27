@@ -7,6 +7,12 @@
     flex-direction:column;
 }
 
+.TechStackComponent-Mobile-second-container{
+    background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+    max-height:200vh;
+    width:100%;
+
+}
 @media screen and (min-width:768px){
     .TeschstackComponent-Desktop-container{
         display:flex;
@@ -14,11 +20,15 @@
     .TeschstackComponent-Mobile-container{
         display:none;
     }
-    .TeschstackComponent-Desktop-sub-container{
+    .TeschstackComponent-Desktop-sub-first-container{
+        background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+        height:100vh;
+        width:400vw;
+    }
+    .TeschstackComponent-Desktop-sub-second-container{
         background-color:transparent;
         height:80%;
         width:150%;
-        margin-right:17%;
-        margin-left:10%;
+        margin-right:30%;
     }
 }

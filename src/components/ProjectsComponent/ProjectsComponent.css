@@ -1,0 +1,37 @@
+.Mobile-ProjectsComponent-first-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.Desktop-ProjectsComponent-first-container{
+    display:none;
+}
+
+
+
+
+
+@media screen and (min-width:768px){
+    .Desktop-ProjectsComponent-first-container{
+        display:flex;
+    }
+    .Mobile-ProjectsComponent-first-container{
+        display:none;
+    }
+    .Desktop-ProjectsComponent-third-container{
+        background-color:transparent;
+        height:100%;
+        width:80%;
+        margin-right:20%;
+        margin-top:3%;
+        margin-left:10%;
+    }
+    .Desktop-ProjectsComponent-second-Container{
+        background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+        height:100vh;
+        width:400vw;
+    }
+}

@@ -41,8 +41,10 @@ const EducationComponent = () =>{
             </div>
             <div className="Desktop-MainEducation-main-container">
                 <Sidebar/>
+                <div className="Desktop-MainEducation-first-container">
                 <div className='Desktop-MainEductaion-container'>
                 <DesktopEducationComponent EducationData={EducationData}/>
+                </div>
                 </div>
 
             </div>

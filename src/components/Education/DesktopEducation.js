@@ -13,7 +13,7 @@ const DesktopEducation = (props) =>{
                 <h1 className='Desktop-eductaion-heading'>Education</h1>
                 <ul className='Desktop-ed-list-container'>
                     {EducationData.map((item)=>(
-                        <li className="Desktop-Education-Item-container">
+                        <li className="Desktop-Education-Item-container" key={item.id}>
                         <RiGraduationCapFill size={50} className='desktop-graduation-icon'/>
                         <div className='desktop-list-items-ed-container'>
                         <h3 className="ed-item-heading1">{item.name}</h3>

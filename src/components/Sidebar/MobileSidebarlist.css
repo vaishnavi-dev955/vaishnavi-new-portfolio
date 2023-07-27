@@ -43,9 +43,9 @@
 }
 
 .nav-items-container{
-    background-color:#123773;
-    height:80vh;
-    width:80vw;
+    background-color:#0d0807;
+    height:50vh;
+    width:30%;
 }
 
 .mobile-nav-items{
@@ -78,6 +78,6 @@
     display:flex;
 }
 .para{
-    padding-left:60px;
-    font-size:20px;
+    padding-left:10%;
+    font-size:15px;
 }

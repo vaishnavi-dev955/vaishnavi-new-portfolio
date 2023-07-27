@@ -1,0 +1,60 @@
+.Mobile-ContactComponent-second-container{
+    background-color:#03fcec;
+    min-height:60%;
+    width:80%;
+    display:flex;
+    margin-left:10%;
+    flex-direction:column;
+    margin-top:30%;
+    margin-bottom:20%;
+}
+.Mobile-ContactComponent-first-container{
+    display:flex;
+    flex-direction:column;
+    background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+    height:100%;
+    width:100%;
+}
+
+.Desktop-Home-contact-container{
+    display:none;
+    
+}
+
+.Mobile-contactComponent-me-heading{
+    color:#152b5e;
+    font-size:25px;
+    padding-left:3%;
+}
+.Mobile-contactComponent-me-para{
+    color:#1a242b;
+    padding-left:3%;
+    padding-right:2%;
+}
+.contactComponent{
+    margin-top:2%;
+    border:0px solid;
+    margin-bottom:2%;
+    height:30%;
+    width:40%;
+}
+
+
+.Desktop-ContactComponent-first-container{
+    display:none;
+}
+
+@media screen and (min-width:768px){
+    .Mobile-ContactComponent-first-container{
+        display:none;
+    }
+    .Desktop-ContactComponent-first-container{
+        display:flex;
+    }
+    .Desktop-ContactComponent-second-container{
+        background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+        height:100vh;
+        width:400vw;
+        display:flex;
+    }
+}

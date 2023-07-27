@@ -9,6 +9,14 @@
 }
 
 
+.mobile-AboutMain-first-Container{
+    background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+    height:110vh;
+    width:100%;
+}
+
+
+
 
 @media screen and (min-width:768px){
     .mobile-AboutMain-main-section{
@@ -20,9 +28,8 @@
         flex-direction:row;
     }
     .desktop-main-about-about-component{
-        height:80%;
-        width:90%;
-        background-color:transparent;
-        margin-right:22%;
+        background-image:url("https://thumbs.gfycat.com/ClutteredUnequaledBluet.webp");
+        height:100vh;
+        width:400vw;
     }
 }

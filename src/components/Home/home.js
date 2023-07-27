@@ -2,10 +2,7 @@ import React from 'react'
 import './home.css'
 
 import Sidebar from '../Sidebar/sidebar'
-import About from '../About/index'
-import TechStack from '../TechStack/TechStack'
-import Education  from '../Education/Education'
-import Projects from '../Projects/Projects'
+
 
 import Typewriter from 'typewriter-effect'
 
@@ -43,17 +40,15 @@ const Home = () =>{
                         </button>
 
                 </div>
-                <About/>
-                <TechStack/>
-                <Education/>
-                <Projects/>
+                <img src="https://user-images.githubusercontent.com/59734313/157189039-c09b3e38-9f42-42c0-ab54-14f1574190a7.gif" alt="software-logo-1" className="Mobile-gif-style"/>
             </div>
             </div>
             <div className="Home-Desktop-container">
             <Sidebar/>
             <div className='Home-dekstop-main-container'>
             <div className="home-desktop-content">
-            <h2 className='name-desktop-heading'>
+                <h1 className='home-desktop-heading'>Hi I'm an</h1>
+                <h2 className='name-desktop-heading'>
             <Typewriter
                 options={{
                     strings: ['VAISHNAVI MANDALA'],
@@ -62,11 +57,10 @@ const Home = () =>{
                     }}
                 />
                 </h2>
-                <h1 className='home-desktop-heading'>Hi I'm an</h1>
                 <h2 className='home-desktop-heading'>
                 <Typewriter
                 options={{
-                    strings: ['Full-Stack Developer', 'MERN Stack Developer'],
+                    strings: ['An Aspiring', 'Full-Stack Developer', 'MERN Stack Developer'],
                     autoStart: true,
                     loop: true,
                     }}
@@ -81,10 +75,7 @@ const Home = () =>{
 
                 </div>
             </div>
-            <About/>
-            <TechStack/>
-            <Education/>
-            <Projects/>
+            <img src="https://user-images.githubusercontent.com/59734313/157189039-c09b3e38-9f42-42c0-ab54-14f1574190a7.gif" alt="software-logo" className="Desktop-gif-style"/>
             </div>
             </div>
         </React.Fragment>

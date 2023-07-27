@@ -7,7 +7,7 @@
     text-decoration:underline;
     padding-right:14%;
     padding-right:14%;
-    padding-top:10%;
+    padding-top:20%;
 }
 
 .desktop-section-tech-stack-title{
@@ -18,7 +18,6 @@
     height:80%;
     width:80%;
     background-color:transparent;
-    margin-left:10%;
 }
 
 .desktop-tech-stack-image{
@@ -29,14 +28,16 @@
 }
 .desktop-TechnologyItem-container{
     background-color:transparent;
-    height:70%;
-    width:130%;
+    height:110%;
+    width:60%;
+    margin-right:30%;
     display:flex;
     flex-wrap:wrap;
     list-style-type:none;
     justify-content:center;
     border:1px solid white;
     align-items:center;
+    margin-left:10%;
 }
 
 .desktop-TechnologyItem-button{

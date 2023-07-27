@@ -4,8 +4,8 @@ import './DesktopSidebarlist.css'
 
 import {AiOutlineHome} from 'react-icons/ai'
 import {BsFillPersonFill} from 'react-icons/bs'
-import {GrProjects} from 'react-icons/gr'
 import {RiContactsBook2Line} from 'react-icons/ri'
+import {FcTodoList} from 'react-icons/fc'
 
 import {MdBiotech,MdCastForEducation} from "react-icons/md";
 
@@ -28,18 +28,18 @@ const DesktopSideBarList = (props) =>{
                     <li className="nav-item" onClick={onClickAbout}> <BsFillPersonFill size={25} color="white"/> About</li>
                     <li className="nav-item" onClick={()=>navigate("/techstack")}> <MdBiotech size={25} color="white"/> Tech Stack</li>
                     <li className="nav-item" onClick={()=> navigate("/education")}> <MdCastForEducation size={25}/> Education</li>
-                    <li className="nav-item"> <GrProjects size={25} color="white"/> Projects</li>
-                    <li className="nav-item"> <RiContactsBook2Line size={25} color="white"/> Contact</li>
+                    <li className="nav-item" onClick={()=>navigate("/projects")}> <FcTodoList size={25} color="white"/> Projects</li>
+                    <li className="nav-item" onClick={()=>navigate("/contact")}> <RiContactsBook2Line size={25} color="white"/> Contact</li>
                 </ul>
                 </div>
             ):(<div className="Nav-bar-items-only-icons">
                 <ul className="Nav-items">
-                    <li className="nav-item"> <AiOutlineHome size={25}  color="white"/></li>
-                    <li className="nav-item"> <BsFillPersonFill size={25} color="white"/></li>
-                    <li className="nav-item"> <MdBiotech size={25} color="white"/></li>
-                    <li className="nav-item"> <MdCastForEducation size={25}/></li>
-                    <li className="nav-item"> <GrProjects size={25} color="white"/></li>
-                    <li className="nav-item"> <RiContactsBook2Line size={25} color="white"/></li>
+                    <li className="nav-item"  onClick={() => navigate("/")}> <AiOutlineHome size={25}  color="white"/></li>
+                    <li className="nav-item" onClick={onClickAbout}> <BsFillPersonFill size={25} color="white"/></li>
+                    <li className="nav-item" onClick={()=>navigate("/techstack")}> <MdBiotech size={25} color="white"/></li>
+                    <li className="nav-item" onClick={()=> navigate("/education")}> <MdCastForEducation size={25}/></li>
+                    <li className="nav-item" onClick={()=>navigate("/projects")}> <FcTodoList size={25} color="white"/></li>
+                    <li className="nav-item" onClick={()=>navigate("/contact")}> <RiContactsBook2Line size={25} color="white"/></li>
                 </ul>
 
             </div>)}

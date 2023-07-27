@@ -1,4 +1,4 @@
-.Desktop-Home-projects-container{
+.Desktop-ProjectsComponent-main-container{
     background-color: transparent;
     height:100%;
     width:80%;
@@ -11,19 +11,19 @@
 }
 
 
-.Desktop-projects-heading{
+.Desktop-ProjectsComponent-heading{
     color:#ffffff;
     font-size:35px;
     font-weight:bold;
     text-decoration:underline;
 }
 
-.Desktop-projects-main-container{
+.Desktop-Projects-Component-main-container{
     display:flex;
     flex-direction:column;
     background-color:transparent;
     height:80%;
-    width:80%;
+    width:120%;
     background-color:transparent;
     justify-content:center;
     align-items:center;
@@ -31,26 +31,28 @@
 
 }
 
-.Desktop-projects-container{
+.Desktop-Projects-Component-lists-container{
     display:flex;
     flex-direction:column;
     background-color:#ffffff;
     height:80%;
-    width:70%;
+    width:100%;
     border-radius:20px;
     list-style-type:none;
     border:4px #1c2680 solid;
-    margin:5%;
+    margin-right:5%;
+    margin-top:3%;
+    margin-bottom:3%;
 }
 
-.Desktop-sub-projects-container{
+.Desktop-sub-Projects-Component-container{
     display:flex;
     background-color:transparent;
     flex-wrap:wrap;
     list-style-type:none;
 }
 
-.Desktop-tech-button{
+.Desktop-ProjectsComponent-tech-button{
     height:30px;
     width:100px;
     background-color: #360628;
@@ -65,7 +67,7 @@
     border:3px white solid;
 }
 
-.Desktop-tech-button:hover{
+.Desktop-ProjectsComponent-tech-button:hover{
     height:30px;
     width:100px;
     background-color:White;
@@ -89,7 +91,7 @@
 
 }
 
-.Desktop-live-demo-button{
+.Desktop-ProjectsComponent-live-demo-button{
     background-color:green;
     height:30px;
     width:130px;
@@ -100,7 +102,7 @@
     margin-left:30px;
     margin-bottom:5%;
 }
-.nav-desktop-link{
+.nav-ProjectsComponent-desktop-link{
     font-size:15px;
     color:wheat;
     text-decoration:none;
@@ -113,14 +115,14 @@
     width:65vw;
 }
 
-.desktop-pro-para1{
+.desktop-ProjectsComponent-para1{
     color:#1b402c;
     font-size:20px;
     padding-left:20px;
     font-weight:bold;
 }
 
-.desk-pro-con-heading{
+.desk-ProjectsComponent-con-heading{
     font-size:25px;
     font-weight:bold;
     padding-left:20px;

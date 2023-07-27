@@ -64,14 +64,16 @@ const TechStackComponent = () =>{
         <React.Fragment>
         <div className="TeschstackComponent-Mobile-container">
             <Sidebar/>
-            <div>
+            <div className="TechStackComponent-Mobile-second-container">
             <MobileTechStackComponent MobileTechdata={Techdata}/>
             </div>
         </div>
         <div className="TeschstackComponent-Desktop-container">
             <Sidebar/>
-            <div  className="TeschstackComponent-Desktop-sub-container">
+            <div  className="TeschstackComponent-Desktop-sub-first-container">
+                <div className='TeschstackComponent-Desktop-sub-second-container'>
             <DesktopTechStackComponent Techdata={Techdata}/>
+            </div>
             </div>
         </div>
         </React.Fragment>
