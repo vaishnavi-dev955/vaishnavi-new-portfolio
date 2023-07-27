@@ -81,12 +81,13 @@
 }
 .Desktop-Contact-form-container{
     background-color:#03fcec;
-    height:80%;
-    width:60%;
+    height:50%;
+    width:50%;
     text-align:center;
     margin-top:1%;
-    margin-left:20%;
+    margin-left:25%;
     margin-bottom:10%;
+    margin-right:25%;
 }
 .Desktop-Contact-form-heading{
     color:#0e2482;
@@ -117,4 +118,5 @@
     text-align:center;
     border:2px solid #ffffff;
     font-weight:500%;
+    margin-top:5%;
 }
